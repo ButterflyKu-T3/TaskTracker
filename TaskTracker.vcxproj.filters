@@ -75,6 +75,9 @@
     <ClCompile Include="Source\UI\TaskWindow.cpp">
       <Filter>Исходные файлы\UI</Filter>
     </ClCompile>
+    <ClCompile Include="Source\Core\TaskStorage.cpp">
+      <Filter>Исходные файлы\Core</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Application\Application.h">
@@ -88,6 +91,9 @@
     </ClInclude>
     <ClInclude Include="Source\UI\TaskWindow.h">
       <Filter>Файлы заголовков\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\TaskStorage.h">
+      <Filter>Файлы заголовков\Core</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

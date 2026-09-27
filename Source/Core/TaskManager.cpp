@@ -28,6 +28,11 @@ void TaskManager::SetTaskCompleted(size_t index, bool completed)
     tasks[index].SetCompleted(completed);
 }
 
+void TaskManager::ClearTasks()
+{
+    tasks.clear();
+}
+
 const std::vector<Task>& TaskManager::GetTasks() const
 {
     return tasks;

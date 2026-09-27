@@ -11,6 +11,7 @@ public:
 
     void AddTask(const std::string& name);
     void SetTaskCompleted(size_t index, bool completed);
+    void ClearTasks();
 
     const std::vector<Task>& GetTasks() const;
     const std::chrono::year_month_day& GetSelectedDate() const;
