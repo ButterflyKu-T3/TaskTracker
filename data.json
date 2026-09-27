@@ -1,0 +1,14 @@
+{
+    "27-07-2026": {
+        "tasks": [
+            {
+                "completed": false,
+                "name": "Учить C++"
+            },
+            {
+                "completed": true,
+                "name": "Спорт"
+            }
+        ]
+    }
+}
